@@ -48,7 +48,6 @@ header {
 .foto2:hover {
   transform: scale(1.1, 1.1);
   opacity: 85%;
-  animation-duration: 10s;
   border: black solid 5px;
   border-radius: 10px;
 }
@@ -204,6 +203,14 @@ footer {
 .caja{
   margin: 30px;
 }
+
+.caja:hover{
+  opacity: 90%;
+  border: 1px solid black;
+  transform: scale(1.2, 1.2);
+}
+
+
 
 .caja p{
   font-size: 20px;
