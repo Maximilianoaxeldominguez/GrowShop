@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Atma", cursive;
+  font-size: 25px;
+}
+main {
+  height: 250vh;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-item {
+  height: 80vh;
+  padding: 30px;
+}
+
+.titulo {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 100px;
+  text-decoration: solid;
+  background-color: rgb(219, 219, 219);
+}
+
+.titulo:hover{
+  background-color: #63d471;
+  background-image: linear-gradient(315deg, #63d471 0%, #425f4e 74%);
+   
+}
+
+.imagines1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: 100px;
+  margin: 10px;
+  padding: 10;
+}
+
+.foto2 {
+  margin: 30px;
+}
+
+.foto2:hover {
+  transform: scale(1.1, 1.1);
+  opacity: 85%;
+  animation-duration: 10s;
+  border: black solid 5px;
+  border-radius: 10px;
+}
+
+.redes {
+  width: 100%;
+  height: 20vh;
+  background-color: rgb(226, 225, 225);
+  position: relative;
+  top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.redes:hover{
+  background-color: #63d471;
+background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+
+}
+
+.redes svg {
+  position: relative;
+  top: 45px;
+}
+
+.nombre_insta {
+  position: relative;
+  top: 60px;
+  margin-left: 20px;
+}
+
+.nombre_insta p {
+  font-size: 20px;
+}
+
+.icon_instagram {
+  color: black;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 6vh;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************** SUSTRATO *************************************************************/
+
+
+.Section_sustrato{
+  height: 150vh;
+}
+
+
+
+
+
+.titulo_sustrato{
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 130px;
+  font-size: 250px;
+}
+
+.container_sustrato{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px 300px 40px 300px;
+  
+}
+
+.caja img{
+  width: 220px;
+  height: 250px;
+}
+
+.caja{
+  margin: 30px;
+}
+
+.caja p{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************** RESPOSIVE /************************************
+
+/* Smartphone */
+
+@media (max-width: 599px) {
+  body {
+    background-color: pink;
+  }
+  main {
+    height: 250vh;
+  }
+
+  .carousel-item {
+    height: 30vh;
+    padding: 15px;
+  }
+  .imagines1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: 10px;
+    margin: 10px;
+  }
+
+  footer {
+    background-color: black;
+    color: white;
+    height: 7vh;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .foto2 {
+    margin: 30px;
+    height: 350px;
+    width: 90%;
+  }
+}
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 1150px) {
+  body {
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+  }
+
+  main {
+    height: 280vh;
+  }
+
+  .carousel-item {
+    height: 40vh;
+    margin-right: 20px;
+  }
+
+}
