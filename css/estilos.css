@@ -1,304 +1,120 @@
+/********************************************** SUSTRATO *************************************************************/
+/*********************** RESPOSIVE /************************************
+  /* Smartphone */
+/* Tablet */
 * {
   margin: 0;
   padding: 0;
   font-family: "Atma", cursive;
-  font-size: 25px;
-}
+  font-size: 25px; }
+
+body {
+  background-color: #fafafa; }
+
 main {
-  height: 250vh;
-}
+  height: auto; }
+
 header {
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
+
+#carouselExampleControls img {
+  height: 95vh;
+  width: 100%; }
+
+#carouselExampleControls #irAlSitio {
+  margin-top: 5px;
+  text-align: center; }
 
 .carousel-item {
-  height: 80vh;
-  padding: 30px;
-}
+  height: 100vh; }
 
 .titulo {
+  margin-top: -70px;
+  margin-bottom: 150px;
   text-align: center;
-  margin-top: 100px;
+  padding-top: 150px;
   font-size: 100px;
-  text-decoration: solid;
-  background-color: rgb(219, 219, 219);
-}
-
-.titulo:hover{
-  background-color: #63d471;
-  background-image: linear-gradient(315deg, #63d471 0%, #425f4e 74%);
-   
-}
+  text-decoration: solid; }
 
 .imagines1 {
+  width: 100%;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  position: relative;
-  top: 100px;
-  margin: 10px;
-  padding: 10;
-}
+  justify-content: space-around;
+  flex-wrap: nowrap; }
 
 .foto2 {
-  margin: 30px;
-}
-
-.foto2:hover {
-  transform: scale(1.1, 1.1);
-  opacity: 85%;
-  border: black solid 5px;
-  border-radius: 10px;
-}
+  width: 90%; }
+  .foto2:hover {
+    transform: scale(1.1, 1.1);
+    opacity: 85%;
+    border: black solid 5px;
+    border-radius: 10px; }
 
 .redes {
-  width: 100%;
-  height: 20vh;
-  background-color: rgb(226, 225, 225);
-  position: relative;
-  top: 200px;
+  width: 30%;
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
-.redes:hover{
-  background-color: #63d471;
-background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
-
-}
-
-.redes svg {
-  position: relative;
-  top: 45px;
-}
+.footerTexto {
+  width: 70%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
 
 .nombre_insta {
   position: relative;
-  top: 60px;
-  margin-left: 20px;
-}
-
-.nombre_insta p {
-  font-size: 20px;
-}
+  margin-left: 20px; }
+  .nombre_insta p {
+    font-size: 20px; }
 
 .icon_instagram {
-  color: black;
-}
+  color: black; }
 
 footer {
-  background-color: black;
-  color: white;
-  height: 6vh;
-  font-size: 20px;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  padding-top: 20px;
+  width: 100%;
+  margin-top: 100px;
+  color: #fafafa;
   text-align: center;
-}
+  display: flex; }
 
+.Section_sustrato {
+  height: 150vh; }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/********************************************** SUSTRATO *************************************************************/
-
-
-.Section_sustrato{
-  height: 150vh;
-}
-
-
-
-
-
-.titulo_sustrato{
+.titulo_sustrato {
   width: 100%;
   text-align: center;
   font-weight: bold;
   margin-top: 130px;
-  font-size: 250px;
-}
+  font-size: 250px; }
 
-.container_sustrato{
+.container_sustrato {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin: 40px 300px 40px 300px;
-  
-}
+  justify-content: space-around; }
 
-.caja img{
-  width: 220px;
-  height: 250px;
-}
-
-.caja{
-  margin: 30px;
-}
-
-.caja:hover{
-  opacity: 90%;
-  border: 1px solid black;
-  transform: scale(1.2, 1.2);
-}
-
-
-
-.caja p{
-  font-size: 20px;
-  text-align: center;
-  font-weight: bold;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*********************** RESPOSIVE /************************************
-
-/* Smartphone */
+.caja {
+  margin: 30px; }
+  .caja img {
+    width: 220px;
+    height: 250px; }
+  .caja:hover {
+    opacity: 90%;
+    border: 1px solid black;
+    transform: scale(1.2, 1.2); }
+  .caja p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold; }
 
 @media (max-width: 599px) {
   body {
-    background-color: pink;
-  }
-  main {
-    height: 250vh;
-  }
+    background-color: pink; } }
 
-  .carousel-item {
-    height: 30vh;
-    padding: 15px;
-  }
-  .imagines1 {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    position: relative;
-    top: 10px;
-    margin: 10px;
-  }
-
-  footer {
-    background-color: black;
-    color: white;
-    height: 7vh;
-    font-size: 20px;
-    text-align: center;
-  }
-
-  .foto2 {
-    margin: 30px;
-    height: 350px;
-    width: 90%;
-  }
-}
-
-/* Tablet */
 @media (min-width: 600px) and (max-width: 1150px) {
   body {
-    background-color: #ffffff;
-    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
-  }
-
-  main {
-    height: 280vh;
-  }
-
-  .carousel-item {
-    height: 40vh;
-    margin-right: 20px;
-  }
-
-}
+    background-color: green; } }
