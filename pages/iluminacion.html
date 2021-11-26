@@ -11,116 +11,189 @@
   <!--Mis estilos-->
   <link rel="stylesheet" href="/css/estilos.css">
   <!--ANIMATE-->
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-<!--FONT FAMILY-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Atma:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!--FONT FAMILY-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
   <!--HEADER-->
-<header>
-<img class="logo animate__animated animate__wobble" src="/media/logo-845176088-1626731095-88d26ae34b8309e7df1205c077c43db91626731096-480-0.png" alt="logo tienda de cultivo">
-</header>
-<!--MENU DE NAVEGACION-->
-<nav>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark  " aria-label="Tenth navbar example">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <header>
+    <nav>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top " aria-label="Tenth navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="/media/logo-removebg-preview (1).png" width="130%" height="60" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08"
+            aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-      <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="/index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="/pages/nosotros.html">Nosotros</a>
-          </li>
-          <li class="nav-item dropdown active">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
-            <ul class="dropdown-menu" aria-labelledby="dropdown08">
-              <li><a class="dropdown-item" href="/pages/sustrato.html">Sustrato</a></li>
-              <li><a class="dropdown-item" href="/pages/iluminacion.html">Ilumincacion</a></li>
-              <li><a class="dropdown-item" href="/pages/macetas.html">Macetas</a></li>
+          <div class="collapse navbar-collapse justify-content-md-end" id="navbarsExample08">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="/index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown"
+                  aria-expanded="false">Productos</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown08">
+                  <li><a class="dropdown-item" href="sustrato.html">Sustrato</a></li>
+                  <li><a class="dropdown-item" href="iluminacion.html">Ilumincacion</a></li>
+                  <li><a class="dropdown-item" href="macetas.html">Macetas</a></li>
+                </ul>
+              </li>
+              <form class="d-flex">
+                <input class="form-control me-2 barraBusqueda" type="search"  aria-label="Search">
+                <button type="button" class="btn btn-success">Buscar</button>
+              </form>
             </ul>
-          </li>
-        </ul>
+          </div>
+        </div>
+      </nav>
+    </nav>
+  </header>
+  <main>
+    <div class="titleProducto">
+      <img src="/media/top productos/iluminacion1.jpg" width="100%" alt="">
+    </div>
+    <div class="cont_productos">
+      <div class="cont_menu">
+        <h2 class="tam-2">Filtros</h2>
+        <h3 class="tam-3">Tamaño</h3>
+        <label class="container cont_menu">1l(1)
+          <input type="checkbox" checked="checked">
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="container cont_menu">20l(2)
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="container cont_menu">250ml(1)
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="container cont_menu">25dm3(1)
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="container cont_menu">25l(1)
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="container cont_menu">60l(1)
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="container cont_menu">80dm3(1)
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="container cont_menu">80(1)
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="container cont_menu">25dm3(1)
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <!-- <div class="titulo_sustrato"><h1>MACETAS</h1></div> -->
+      <div class="container_sustrato">
+        <div class="caja"> <img src="/media/iluminacion/image1.jfif" alt="">
+          <p class="titleProd" >PANEL LED MARS SUNFLASH CRI 659 CULTIVO INDOOR 220V</p class="titleProd">
+          <p class="price">Precio: $ 170285 </p class="titleProd">
+        </div>
+        <div class="caja "> <img src="/media/iluminacion/image2.jfif" alt="">
+          <p class="titleProd">PANEL LED MX 300 BLACK CULTIVO INDOOR LED CREE</p class="titleProd">
+          <p class="price">Precio: $ 79830</p class="titleProd">
+        </div>
+        <div class="caja"> <img src="/media/iluminacion/image3.jfif" alt="">
+          <p class="titleProd">PANEL LED 400W GROWTECH MASTER CULTIVO INDOOR</p class="titleProd">
+          <p class="price">Precio: $ 24240</p class="titleProd">
+        </div>
+        <div class="caja "> <img src="/media/iluminacion/image4.jfif" alt="">
+          <p class="titleProd">PANEL LED MASTER MX 200 BLACK CULTIVO INDOOR LED CREE</p class="titleProd">
+          <p class="price">Precio: $ 48015</p class="titleProd">
+        </div>
+        <div class="caja "> <img src="/media/iluminacion/image5.jfif" alt="">
+          <p class="titleProd">PANEL LED MARS SUNFLASH CRI 153 CULTIVO INDOOR 220V</p class="titleProd">
+          <p class="price">Precio: $ 54710</p class="titleProd">
+        </div>
+        <div class="caja"> <img src="/media/iluminacion/image6.jfif" alt="">
+          <p class="titleProd">PANEL LED MX 300 BLACK CULTIVO INDOOR LED CREE</p class="titleProd">
+          <p class="price">Precio: $ 79830</p class="titleProd">
+        </div>
+        <div class="caja"> <img src="/media/iluminacion/image7.jfif" alt="">
+          <p class="titleProd">PANEL LED GROWTECH ADVANCED CULTIVO INDOOR CREE 130</p class="titleProd">
+          <p class="price">Precio: $ 30555</p class="titleProd">
+        </div>
+        <div class="caja"> <img src="/media/iluminacion/image8.jfif" alt="">
+          <p class="titleProd">PANEL LED 600W GROWTECH MASTER CULTIVO INDOOR</p class="titleProd">
+          <p class="price">Precio: $ 32970</p class="titleProd">
+        </div>
+        <div class="caja"> <img src="/media/iluminacion/image9.jfif" alt="">
+          <p class="titleProd">PANEL LED BIOLED RG220I FULL SPECTRUM CULTIVO INDOOR</p class="titleProd">
+          <p class="price">Precio: $ 43180</p class="titleProd">
+        </div>
+        <div class="caja"> <img src="/media/iluminacion/image10.jfif" alt="">
+          <p class="titleProd">PANEL LED GROWTECH P1000 LÍNEA COGORDO</p class="titleProd">
+          <p class="price">Precio: $ 28120</p class="titleProd">
+        </div>
+        <div class="caja"> <img src="/media/iluminacion/image11.jfif" alt="">
+          <p class="titleProd">PANEL LED MARS ORBITER 80 ALTA EFICIENCIA CULTIVO INDOOR</p class="titleProd">
+          <p class="price">Precio: $ 26480</p class="titleProd">
+        </div>
+        <div class="caja"> <img src="/media/iluminacion/image12.jfif" alt="">
+          <p class="titleProd">PANEL LED BIOLED RG110I FULL SPECTRUM CULTIVO INDOOR</p class="titleProd">
+          <p class="price">Precio: $ 26480</p class="titleProd">
+        </div>
       </div>
     </div>
-  </nav>
-</nav>
-<main class="Section_sustrato">
-
-  <div class="titulo_sustrato"><h1>Iluminacion</h1></div>
-  
-  <div class="container_sustrato">
-    <div class="caja caja1"> <img
-        src="/media/iluminacion/image1.jfif" alt="">
-      <p>Producto 1</p>
-      <p>Precio: 420$</p>
-    </div>
-    <div class="caja "> <img
-      src="/media/iluminacion/image2.jfif" alt="">
-    <p>Producto 1</p>
-    <p>Precio: 420$</p> </div>
-    <div class="caja"> <img
-      src="/media/iluminacion/image3.jfif" alt="">
-    <p>Producto 1</p>
-    <p>Precio: 420$</p> </div>
-    <div class="caja "> <img
-      src="/media/iluminacion/image4.jfif" alt="">
-    <p>Producto 1</p>
-    <p>Precio: 420$</p> </div>
-    <div class="caja "> <img
-      src="/media/iluminacion/image5.jfif" alt="">
-    <p>Producto 1</p>
-    <p>Precio: 420$</p> </div>
-    <div class="caja"> <img
-      src="/media/iluminacion/image6.jfif" alt="">
-    <p>Producto 1</p>
-    <p>Precio: 420$</p></div>
-    <div class="caja"> <img
-      src="/media/iluminacion/image7.jfif" alt="">
-    <p>Producto 1</p>
-    <p>Precio: 420$</p> </div>
-    <div class="caja"> <img
-      src="/media/iluminacion/image8.jfif" alt="">
-    <p>Producto 1</p>
-    <p>Precio: 420$</p> </div>
-    <div class="caja"> <img
-      src="/media/iluminacion/image9.jfif" alt="">
-    <p>Producto 1</p>
-    <p>Precio: 420$</p> </div>
-    <div class="caja"> <img
-      src="/media/iluminacion/image10.jfif" alt="">
-    <p>Producto 1</p>
-    <p>Precio: 420$</p> </div>
-    <div class="caja"> <img
-      src="/media/iluminacion/image11.jfif" alt="">
-    <p>Producto 1</p>
-    <p>Precio: 420$</p> </div>
-    <div class="caja"> <img
-      src="/media/iluminacion/image12.jfif" alt="">
-    <p>Producto 1</p>
-    <p>Precio: 420$</p> </div>
-
-  </div>
 
 
-
-
-</main>
+  </main>
+<!--------------------------------------FOOTER----------------------------------------------------------------->
 <footer>
-  <p>© Tienda de cultivo - 2021 - Todos los derechos reservados.</p>
+  <div class="inst">
+    <a href="https://www.instagram.com/una.planta.mas.quilmes/" target="_blank">
+      <img src="/media/icon/instagram.png" width="100px" height="100">
+    </a>
+    <div class="nombre_insta">
+      <p>Seguinos en instagram</p>
+      <h2>@una.planta.mas.quilmes</h2>
+    </div>
+  </div>
+  <div class="footerTexto">
+    <div class="borderfoo">
+      <p>© Tienda de cultivo - 2021 - Todos los derechos reservados.</p>
+    </div>
+    <div class="contacfoo">
+      <p>Contacto</p>
+      <p><img src="/media/icon/correo.png" width="50" height="50" alt=""> Unaplantamas@gmail.com</p>
+    </div>
+  </div>
 </footer>
-<!--JVSCRIPT BOOTSTRAP-->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>    
+  <!--JVSCRIPT BOOTSTRAP-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

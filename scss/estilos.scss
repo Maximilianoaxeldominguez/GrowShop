@@ -1,7 +1,4 @@
-/********************************************** SUSTRATO *************************************************************/
-/*********************** RESPOSIVE /************************************
-  /* Smartphone */
-/* Tablet */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -18,6 +15,15 @@ header {
 	display: flex;
 	justify-content: center;
 }
+
+.barraBusqueda{
+	height: 6vh;
+	width: 50%;
+	margin-left: 25%;
+}
+
+
+
 #carouselExampleControls {
     img {
         height: 95vh;
@@ -27,6 +33,9 @@ header {
     #irAlSitio {
         margin-top: 5px;
         text-align: center;
+		a{
+			text-decoration: none;
+		}
     }
 }
 
@@ -48,7 +57,7 @@ header {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: nowrap;
-	
+	padding-left: 2.5%;
 	
 }
 .foto2 {
@@ -61,7 +70,7 @@ header {
 		border-radius: 10px;
 	}
 }
-.redes {
+.inst {
 	width: 30%;
 	display: flex;
 	justify-content: center;
@@ -70,15 +79,6 @@ header {
 	
 }
 
-.footerTexto {
-    
-    width: 70%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 .nombre_insta {
 	position: relative;
 	
@@ -90,50 +90,199 @@ header {
 .icon_instagram {
 	color: black;
 }
+
+.footerTexto {
+    
+    width: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+	border-left: 2px solid gray;
+	margin-left: 2%;
+	.contacfoo{
+		border-left: 2px solid gray;
+		padding-left: 10%;
+		}
+}
+
+
 footer {
     background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
- padding-top: 20px;
+ padding-top: 1%;
+ padding-bottom: 1%;
   width: 100%;
-    margin-top: 100px;
-    
+    margin-top: 5%;
 	color: #fafafa;
 	text-align: center;
     display: flex;
     
 }
-.Section_sustrato {
-	height: 150vh;
-}
-.titulo_sustrato {
+/////////////////////////////////////////////// MACETASSSSS// ///////////////////////////////////////////////////
+
+
+
+.titleProducto {
+	margin-top: 8%;
 	width: 100%;
-	text-align: center;
+}
+.tam-2 {
+	font-size: 50px;
+	margin-top: 20%;
 	font-weight: bold;
-	margin-top: 130px;
-	font-size: 250px;
+}
+.tam-3 {
+	font-size: 30px;
+	margin-top: 7%;
 }
 .container_sustrato {
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
 	justify-content: space-around;
-	
+	width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
 }
+.cont_productos {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	margin-top: 5%;
+	// margin-left: 3%;
+}
+.cont_menu {
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
 .caja {
+	width: 18%;
 	img {
-		width: 220px;
+		width: 100%;
 		height: 250px;
 	}
-	margin: 30px;
+	margin: 5% 3% 5% 3%;
 	&:hover {
 		opacity: 90%;
 		border: 1px solid black;
 		transform: scale(1.2, 1.2);
 	}
+
+	.titleProd{
+		margin-bottom: 10%;
+		font-size: 1em;
+	}
+
+	.price{
+		font-size: 1.5em;
+	}
+
 	p {
 		font-size: 20px;
 		text-align: center;
-		font-weight: bold;
+		width: 100%;
 	}
 }
+
+
+
+/////////////////////////////// ACA PONGO EL LABEL ///////////////////////////////////////////////////////
+
+/* Customize the label (the container) */
+/* Hide the browser's default checkbox */
+/* Create a custom checkbox */
+/* On mouse-over, add a grey background color */
+/* When the checkbox is checked, add a blue background */
+/* Create the checkmark/indicator (hidden when not checked) */
+/* Show the checkmark when checked */
+/* Style the checkmark/indicator */
+
+.container {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 25px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin-top: 10px;
+	input {
+		position: absolute;
+		opacity: 0;
+		cursor: pointer;
+		height: 0;
+		width: 0;
+		&:checked {
+			~ {
+				.checkmark {
+					background-color: #2196F3;
+					&:after {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+	&:hover {
+		input {
+			~ {
+				.checkmark {
+					background-color: #ccc;
+				}
+			}
+		}
+	}
+	.checkmark {
+		&:after {
+			left: 9px;
+			top: 5px;
+			width: 5px;
+			height: 10px;
+			border: solid white;
+			border-width: 0 3px 3px 0;
+			-webkit-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			transform: rotate(45deg);
+		}
+	}
+}
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #eee;
+	&:after {
+		content: "";
+		position: absolute;
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////// RESPONSIVE ////////////////////////////////////////////////////////////////////////////////////////////////
+
 @media (max-width: 599px) {
 	body {
 		background-color: pink;

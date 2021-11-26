@@ -22,103 +22,170 @@
 <body>
   <!--HEADER-->
   <header>
-    <img class="logo animate__animated animate__wobble"
-      src="/media/logo-845176088-1626731095-88d26ae34b8309e7df1205c077c43db91626731096-480-0.png"
-      alt="logo tienda de cultivo">
-  </header>
-  <!--MENU DE NAVEGACION-->
-  <nav>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark  " aria-label="Tenth navbar example">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08"
-          aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top " aria-label="Tenth navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="/media/logo-removebg-preview (1).png" width="130%" height="60" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08"
+            aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" href="/index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="/pages/nosotros.html">Nosotros</a>
-            </li>
-            <li class="nav-item dropdown active">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown"
-                aria-expanded="false">Productos</a>
-              <ul class="dropdown-menu" aria-labelledby="dropdown08">
-                <li><a class="dropdown-item" href="/pages/sustrato.html">Sustrato</a></li>
-                <li><a class="dropdown-item" href="/pages/iluminacion.html">Ilumincacion</a></li>
-                <li><a class="dropdown-item" href="/pages/macetas.html">Macetas</a></li>
-              </ul>
-            </li>
-          </ul>
+          <div class="collapse navbar-collapse justify-content-md-end" id="navbarsExample08">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="/index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown"
+                  aria-expanded="false">Productos</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown08">
+                  <li><a class="dropdown-item" href="sustrato.html">Sustrato</a></li>
+                  <li><a class="dropdown-item" href="iluminacion.html">Ilumincacion</a></li>
+                  <li><a class="dropdown-item" href="macetas.html">Macetas</a></li>
+                </ul>
+              </li>
+              <form class="d-flex">
+                <input class="form-control me-2 barraBusqueda" type="search"  aria-label="Search">
+                <button type="button" class="btn btn-success">Buscar</button>
+              </form>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </nav>
+  </header>
+  <main>
+    <div class="titleProducto">
+      <img src="/media/top productos/sustrato1.jpg" width="100%" alt="">
+    </div>
+    <div class="cont_productos">
+      <div class="cont_menu">
+        <h2 class="tam-2">Filtros</h2>
+        <h3 class="tam-3">Tamaño</h3>
+        <label class="container cont_menu">1l(1)
+          <input type="checkbox" checked="checked">
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="container cont_menu">20l(2)
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="container cont_menu">250ml(1)
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="container cont_menu">25dm3(1)
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="container cont_menu">25l(1)
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="container cont_menu">60l(1)
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="container cont_menu">80dm3(1)
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="container cont_menu">80(1)
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="container cont_menu">25dm3(1)
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <!-- <div class="titulo_sustrato"><h1>MACETAS</h1></div> -->
+      <div class="container_sustrato">
+        <div class="caja"> <img src="/media/sustrato/image1.jfif" alt="">
+          <p class="titleProd">SUSTRATO PROFESIONAL LIVIANO EDEN PERLITA TURBA HUMUS VERMI 25 LTS</p class="titleProd">
+          <p class="price">Precio: $ 890</p class="titleProd">
+        </div>
+        <div class="caja "> <img src="/media/sustrato/image2.jfif" alt="">
+          <p class="titleProd">SUSTRATO PROFESIONAL LIVIANO EDEN PERLITA TURBA HUMUS VERMI 10 LTS</p class="titleProd">
+          <p class="price">Precio: $ 450</p class="titleProd">
+        </div>
+        <div class="caja"> <img src="/media/sustrato/image3.jfif" alt="">
+          <p class="titleProd">VERMICULITA EDEN 5 LITROS PREMIUM ACONDICIONADOR DE SUELO MARRÓN</p class="titleProd">
+          <p class="price">Precio: $ 340</p class="titleProd">
+        </div>
+        <div class="caja "> <img src="/media/sustrato/image4.jfif" alt="">
+          <p class="titleProd">PERLITA EDEN 5 LITROS PREMIUM ACONDICIONADOR DE SUELOS - UP!</p class="titleProd">
+          <p class="price">Precio: $ 190</p class="titleProd">
+        </div>
+        <div class="caja "> <img src="/media/sustrato/image5.png" alt="">
+          <p class="titleProd">SUSTRATO KLASMANN TS3 70LTS DYNAMICS IMPORTADO CULTIVO</p class="titleProd">
+          <p class="price">Precio: $ 2530</p class="titleProd">
+        </div>
+        <div class="caja"> <img src="/media/sustrato/image6.jfif" alt="">
+          <p class="titleProd">GROWMIX MULTIPRO TURBA PERLITA 80 LITROS</p class="titleProd">
+          <p class="price">Precio: $ 1550</p class="titleProd">
+        </div>
+        <div class="caja"> <img src="/media/sustrato/image7.jfif" alt="">
+          <p class="titleProd">SUSTRATO VITAFLOR LIGHTMIX 50 LITROS TERRAFERTIL CULTIVO</p class="titleProd">
+          <p class="price">Precio: $ 1410</p class="titleProd">
+        </div>
+        <div class="caja"> <img src="/media/sustrato/image8.png" alt="">
+          <p class="titleProd">FIBRA DE COCO PURO JUANIJUANA 25 LITROS</p class="titleProd">
+          <p class="price">Precio: $ 1355</p class="titleProd">
+        </div>
+        <div class="caja"> <img src="/media/sustrato/image9.png" alt="">
+          <p class="titleProd">FIBRA DE COCO CON HUMUS JUANIJUANA 25 LITROS</p>
+          <p class="price">Precio: $ 1190</p class="titleProd">
+        </div>
+        <div class="caja"> <img src="/media/sustrato/image10.png" alt="">
+          <p class="titleProd">SUSTRATO PARA HUERTAS PREPARADO TERRAFERTIL 50 DM3</p class="titleProd">
+          <p class="price">Precio: $ 1175</p class="titleProd">
+        </div>
+        <div class="caja"> <img src="/media/sustrato/image11.png" alt="">
+          <p class="titleProd">LOMBRI COMPUESTO HUMUS DE LOMBRIZ TERRAFERTIL 50 DM3</p class="titleProd">
+          <p class="price">Precio: $ 1145</p class="titleProd">
+        </div>
+        <div class="caja"> <img src="/media/sustrato/image12.png" alt="">
+          <p class="titleProd">SUSTRATO SUPERMIX JUANIJUANA COCO COMPOST HUMUS 25 LTS</p class="titleProd">
+          <p class="price">Precio: $ 1065</p class="titleProd">
         </div>
       </div>
-    </nav>
-  </nav>
-
-  <main class="Section_sustrato">
-
-    <div class="titulo_sustrato"><h1>SUSTRATO</h1></div>
-
-    <div class="container_sustrato">
-      <div class="caja caja1"> <img
-          src="/media/sustrato/Sustrato1.jpg" alt="">
-        <p>Producto 1</p>
-        <p>Precio: 420$</p>
-      </div>
-      <div class="caja "> <img
-        src="/media/sustrato/sustrato2.png" alt="">
-      <p>Producto 1</p>
-      <p>Precio: 420$</p> </div>
-      <div class="caja"> <img
-        src="/media/sustrato/sustrato3.png" alt="">
-      <p>Producto 1</p>
-      <p>Precio: 420$</p> </div>
-      <div class="caja "> <img
-        src="/media/sustrato/sustrato4.png" alt="">
-      <p>Producto 1</p>
-      <p>Precio: 420$</p> </div>
-      <div class="caja "> <img
-        src="/media/sustrato/sustrato5.png" alt="">
-      <p>Producto 1</p>
-      <p>Precio: 420$</p> </div>
-      <div class="caja"> <img
-        src="/media/sustrato/sustrato6.jpg" alt="">
-      <p>Producto 1</p>
-      <p>Precio: 420$</p></div>
-      <div class="caja"> <img
-        src="/media/sustrato/sustrato7.jpg" alt="">
-      <p>Producto 1</p>
-      <p>Precio: 420$</p> </div>
-      <div class="caja"> <img
-        src="/media/sustrato/sustrato8.jpg" alt="">
-      <p>Producto 1</p>
-      <p>Precio: 420$</p> </div>
-      <div class="caja"> <img
-        src="/media/sustrato/sustrato10.jpg" alt="">
-      <p>Producto 1</p>
-      <p>Precio: 420$</p> </div>
-      <div class="caja"> <img
-        src="/media/sustrato/sustrato11.jpg" alt="">
-      <p>Producto 1</p>
-      <p>Precio: 420$</p> </div>
-      <div class="caja"> <img
-        src="/media/sustrato/sustrato12.jpg" alt="">
-      <p>Producto 1</p>
-      <p>Precio: 420$</p> </div>
-      <div class="caja"> <img
-        src="/media/sustrato/sustrato15.jpg" alt="">
-      <p>Producto 1</p>
-      <p>Precio: 420$</p> </div>
-
     </div>
 
 
   </main>
+  <!--------------------------------------FOOTER----------------------------------------------------------------->
   <footer>
-    <p>© Tienda de cultivo - 2021 - Todos los derechos reservados.</p>
+    <div class="inst">
+      <a href="https://www.instagram.com/una.planta.mas.quilmes/" target="_blank">
+        <img src="/media/icon/instagram.png" width="100px" height="100">
+      </a>
+      <div class="nombre_insta">
+        <p>Seguinos en instagram</p>
+        <h2>@una.planta.mas.quilmes</h2>
+      </div>
+    </div>
+    <div class="footerTexto">
+      <div class="borderfoo">
+        <p>© Tienda de cultivo - 2021 - Todos los derechos reservados.</p>
+      </div>
+      <div class="contacfoo">
+        <p>Contacto</p>
+        <p><img src="/media/icon/correo.png" width="50" height="50" alt=""> Unaplantamas@gmail.com</p>
+      </div>
+    </div>
   </footer>
   <!--JVSCRIPT BOOTSTRAP-->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
