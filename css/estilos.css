@@ -62,12 +62,10 @@ header {
 
 .nombre_insta {
   position: relative;
-  margin-left: 20px; }
+  margin-left: 1%;
+  font-size: 30px; }
   .nombre_insta p {
-    font-size: 20px; }
-
-.icon_instagram {
-  color: black; }
+    font-size: 1em; }
 
 .footerTexto {
   width: 70%;
@@ -80,7 +78,7 @@ header {
   margin-left: 2%; }
   .footerTexto .contacfoo {
     border-left: 2px solid gray;
-    padding-left: 10%; }
+    padding-left: 5%; }
 
 footer {
   background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
@@ -97,12 +95,12 @@ footer {
   width: 100%; }
 
 .tam-2 {
-  font-size: 50px;
+  font-size: 2em;
   margin-top: 20%;
   font-weight: bold; }
 
 .tam-3 {
-  font-size: 30px;
+  font-size: 1.3em;
   margin-top: 7%; }
 
 .container_sustrato {
@@ -114,6 +112,9 @@ footer {
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center; }
+  @media (max-width: 900px) {
+    .container_sustrato {
+      width: 100%; } }
 
 .cont_productos {
   display: flex;
@@ -121,15 +122,23 @@ footer {
   flex-direction: row;
   width: 100%;
   margin-top: 5%; }
+  @media (max-width: 900px) {
+    .cont_productos {
+      justify-content: center; } }
 
 .cont_menu {
   width: 20%;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  font-size: 25px; }
+  @media (max-width: 900px) {
+    .cont_menu {
+      display: none; } }
 
 .caja {
   width: 18%;
+  font-size: 25px;
   margin: 5% 3% 5% 3%; }
   .caja img {
     width: 100%;
@@ -140,11 +149,11 @@ footer {
     transform: scale(1.2, 1.2); }
   .caja .titleProd {
     margin-bottom: 10%;
-    font-size: 1em; }
+    font-size: 1em;
+    font-weight: bold; }
   .caja .price {
     font-size: 1.5em; }
   .caja p {
-    font-size: 20px;
     text-align: center;
     width: 100%; }
 
@@ -167,7 +176,8 @@ footer {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  margin-top: 10px; }
+  margin-top: 10px;
+  text-align: center; }
   .container input {
     position: absolute;
     opacity: 0;
@@ -175,7 +185,7 @@ footer {
     height: 0;
     width: 0; }
     .container input:checked ~ .checkmark {
-      background-color: #2196F3; }
+      background-color: #2196f3; }
       .container input:checked ~ .checkmark:after {
         display: block; }
   .container:hover input ~ .checkmark {
@@ -197,16 +207,331 @@ footer {
   left: 0;
   height: 25px;
   width: 25px;
-  background-color: #eee; }
+  background-color: #eee;
+  margin-left: 30%; }
   .checkmark:after {
     content: "";
     position: absolute;
     display: none; }
 
-@media (max-width: 599px) {
+@media (max-width: 340px) {
   body {
-    background-color: pink; } }
+    background-color: #fafafa; }
+  * {
+    font-size: 20px; }
+  .barraBusqueda {
+    display: none; }
+  .btn-success {
+    display: none; }
+  #logo {
+    width: 80%; }
+  #carouselExampleControls img {
+    height: 30vh;
+    width: 100%;
+    margin-top: 20%; }
+  #carouselExampleControls #irAlSitio {
+    display: none; }
+  .carousel-item {
+    height: 50vh; }
+  #TiendaDeCultivo {
+    font-size: 1.8em;
+    padding: 0;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    margin-bottom: 0; }
+  .imagines1 {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 12%; }
+    .imagines1 .foto2 {
+      margin-bottom: 10%; }
+  footer {
+    font-size: 16px;
+    flex-direction: row-reverse; }
+    footer .inst {
+      width: 20%;
+      padding-top: 0.5%; }
+      footer .inst img {
+        height: 45px; }
+      footer .inst .nombre_insta {
+        display: none; }
+    footer .contacfoo {
+      display: none; }
+  .borderfoo {
+    border-left: 0; }
+    .borderfoo p {
+      font-size: 0.8em;
+      border-left: 0; }
+  .footerTexto {
+    width: 80%;
+    border-left: 0; } }
+
+@media (min-width: 200px) and (max-width: 340px) {
+  body {
+    background-color: #fafafa; }
+  * {
+    font-size: 15px; }
+  .barraBusqueda {
+    display: none; }
+  .btn-success {
+    display: none; }
+  #logo {
+    width: 80%; }
+  #carouselExampleControls img {
+    height: 30vh;
+    width: 100%;
+    margin-top: 20%; }
+  #carouselExampleControls #irAlSitio {
+    display: none; }
+  .carousel-item {
+    height: 50vh; }
+  #TiendaDeCultivo {
+    font-size: 2.5em;
+    padding: 0;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    margin-bottom: 0; }
+  .imagines1 {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 12%; }
+    .imagines1 .foto2 {
+      margin-bottom: 10%; }
+  footer {
+    font-size: 16px;
+    flex-direction: row-reverse; }
+    footer .inst {
+      width: 20%;
+      padding-top: 1%; }
+      footer .inst img {
+        height: 50px; }
+      footer .inst .nombre_insta {
+        display: none; }
+    footer .contacfoo {
+      display: none; }
+  .borderfoo {
+    border-left: 0; }
+    .borderfoo p {
+      font-size: 20px;
+      border-left: 0; }
+  .footerTexto {
+    width: 80%;
+    border-left: 0; }
+  .titleProducto {
+    margin-top: 30%; }
+  .caja {
+    width: 30%;
+    font-size: 12px; }
+    .caja img {
+      height: 150px; } }
+
+@media (min-width: 341px) and (max-width: 464px) {
+  body {
+    background-color: #fafafa; }
+  * {
+    font-size: 20px; }
+  .barraBusqueda {
+    display: none; }
+  .btn-success {
+    display: none; }
+  #logo {
+    width: 80%; }
+  #carouselExampleControls img {
+    height: 30vh;
+    width: 100%;
+    margin-top: 20%; }
+  #carouselExampleControls #irAlSitio {
+    display: none; }
+  .carousel-item {
+    height: 50vh; }
+  #TiendaDeCultivo {
+    font-size: 2em;
+    padding: 0;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    margin-bottom: 0; }
+  .imagines1 {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 12%; }
+    .imagines1 .foto2 {
+      margin-bottom: 10%; }
+  footer {
+    font-size: 16px;
+    flex-direction: row-reverse; }
+    footer .inst {
+      width: 20%;
+      padding-top: 1%; }
+      footer .inst img {
+        height: 50px; }
+      footer .inst .nombre_insta {
+        display: none; }
+    footer .contacfoo {
+      display: none; }
+  .borderfoo {
+    border-left: 0; }
+    .borderfoo p {
+      font-size: 20px;
+      border-left: 0; }
+  .footerTexto {
+    width: 80%;
+    border-left: 0; }
+  .titleProducto {
+    margin-top: 30%; }
+  .caja {
+    width: 30%;
+    font-size: 12px; }
+    .caja img {
+      height: 150px; } }
+
+@media (min-width: 465px) and (max-width: 599px) {
+  body {
+    background-color: #fafafa; }
+  * {
+    font-size: 20px; }
+  .barraBusqueda {
+    display: none; }
+  .btn-success {
+    display: none; }
+  #logo {
+    width: 80%; }
+  #carouselExampleControls img {
+    height: 30vh;
+    width: 100%;
+    margin-top: 15%; }
+  #carouselExampleControls #irAlSitio {
+    display: none; }
+  .carousel-item {
+    height: 50vh; }
+  #TiendaDeCultivo {
+    font-size: 2em;
+    padding: 0;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    margin-bottom: 0; }
+  .imagines1 {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 12%; }
+    .imagines1 .foto2 {
+      margin-bottom: 10%; }
+  footer {
+    font-size: 16px;
+    flex-direction: row-reverse; }
+    footer .inst {
+      width: 20%;
+      padding-top: 1%; }
+      footer .inst img {
+        height: 50px; }
+      footer .inst .nombre_insta {
+        display: none; }
+    footer .contacfoo {
+      display: none; }
+  .borderfoo {
+    border-left: 0; }
+    .borderfoo p {
+      font-size: 20px;
+      border-left: 0; }
+  .footerTexto {
+    width: 80%;
+    border-left: 0; }
+  .titleProducto {
+    margin-top: 30%; }
+  .caja {
+    width: 30%;
+    font-size: 12px; }
+    .caja img {
+      height: 150px; } }
 
 @media (min-width: 600px) and (max-width: 1150px) {
   body {
-    background-color: green; } }
+    background-color: #fafafa; }
+  * {
+    font-size: 35px; }
+  .barraBusqueda {
+    display: none; }
+  .btn-success {
+    display: none; }
+  #logo {
+    width: 80%; }
+  #carouselExampleControls img {
+    height: 40vh;
+    width: 100%;
+    margin-top: 10%; }
+  #carouselExampleControls #irAlSitio {
+    display: none; }
+  .carousel-item {
+    height: 50vh; }
+  #TiendaDeCultivo {
+    font-size: 2em;
+    padding: 0;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    margin-bottom: 0; }
+  .imagines1 {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 12%; }
+    .imagines1 .foto2 {
+      margin-bottom: 10%; }
+  footer {
+    font-size: 16px;
+    flex-direction: row-reverse; }
+    footer .inst {
+      width: 20%;
+      padding-top: 1%; }
+      footer .inst img {
+        height: 60px; }
+      footer .inst .nombre_insta {
+        display: none; }
+    footer .contacfoo {
+      display: none; }
+  .borderfoo {
+    border-left: 0; }
+    .borderfoo p {
+      font-size: 0.8em;
+      border-left: 0; }
+  .footerTexto {
+    width: 80%;
+    border-left: 0; }
+  .titleProducto {
+    margin-top: 20%; }
+  .container {
+    font-size: 15px; }
+  .cont_menu {
+    font-size: 15px; }
+  .caja {
+    font-size: 15px; }
+    .caja img {
+      height: 150px; } }
+
+@media (min-width: 1151px) and (max-width: 1801px) {
+  #carouselExampleControls img {
+    height: 85vh; }
+  #TiendaDeCultivo {
+    margin-bottom: 10%; }
+  .nombre_insta h2 {
+    font-size: 1.5em; }
+  .inst {
+    width: 45%; }
+    .inst img {
+      width: 100px;
+      height: 100px; }
+  .container {
+    font-size: 20px; }
+  .cont_menu {
+    font-size: 20px; }
+  .caja {
+    font-size: 20px; }
+    .caja img {
+      height: 200px; } }
