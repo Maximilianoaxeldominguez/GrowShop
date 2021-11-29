@@ -124,38 +124,46 @@ footer {
 
 .ContacNos{
   display: flex;
-  justify-content: center;
+  justify-content: center;  
+  flex-wrap: wrap;
 }
 
 .FormNos{
   margin-top: 2%;
   margin-right: 10%;
   width: 40%;
+  font-size: 20px;
   h1{
     margin-left: 20%;
     margin-bottom: 7%;
+    font-size: 2.9em; 
+    }
   }
+
+
   .Formulario{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    .inputNos{
-      width: 40%;
-      margin-bottom: 5%;
-    }
     .AreaNos{
       margin-left: 1%;
       margin-bottom: 5%;
     }
   }
+
+
+.inputNos{
+  margin-bottom: 5%;
 }
 
+
+
 .btnNos{
-  margin-left: 45%;
+  margin-left: 22%;
+  }
   .btnReset{
     margin-right: 5%;
   }
-}
 
 
 .ContactNos2{
@@ -183,6 +191,10 @@ footer {
   margin-bottom: 10%;
   .IconMarg{
     margin-right: 2%;
+    font-size: 20px;
+    p{
+      font-size: 1.5em;
+    }
   }
 }
 
@@ -197,8 +209,6 @@ footer {
     width: 100%;
   }
 }
-
-
 
 
 
@@ -364,95 +374,6 @@ footer {
 
 //////////////////////////////////// RESPONSIVE ////////////////////////////////////////////////////////////////////////////////////////////////
 
-@media (max-width: 340px) {
-  body {
-    background-color: #fafafa;
-  }
-
-  *{
-    font-size: 20px;
-  }
-
-  .barraBusqueda {
-    display: none;
-  }
-  .btn-success {
-    display: none;
-  }
-
-  #logo {
-    width: 80%;
-  }
-
-  #carouselExampleControls {
-    img {
-      height: 30vh;
-      width: 100%;
-      margin-top: 20%;
-    }
-    #irAlSitio {
-      display: none;
-    }
-  }
-
-  .carousel-item {
-    height: 50vh;
-  }
-
-  #TiendaDeCultivo {
-    font-size: 1.8em;
-    padding: 0;
-    padding-top: 5%;
-    padding-bottom: 10%;
-    margin-bottom: 0;
-  }
-
-  .imagines1 {
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: 12%;
-    .foto2 {
-      margin-bottom: 10%;
-    }
-  }
-
-  footer {
-    font-size: 16px;
-    flex-direction: row-reverse;
-    .inst {
-      width: 20%;
-      padding-top: 0.5%;
-      img {
-        height: 45px;
-      }
-      .nombre_insta {
-        display: none;
-      }
-    }
-    .contacfoo {
-      display: none;
-    }
-  }
-
-  .borderfoo {
-    border-left: 0;
-    p {
-      font-size: 0.8em;
-      border-left: 0;
-    }
-  }
-
-  .footerTexto {
-    width: 80%;
-    border-left: 0;
-  }
-   /////////////////////////////////////////// PRODUCTOS ////////////////////////////////////////////////////////////////////////////////
-
-
-}
-
 
 @media (min-width: 200px) and (max-width: 340px){
 ////////////////////////// INDEX //////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -465,8 +386,12 @@ footer {
   .barraBusqueda {
     display: none;
   }
-  .btn-success {
+  .btn-buscar {
     display: none;
+  }
+
+  .navbar-brand{
+    width: 60%;
   }
 
   #logo {
@@ -491,7 +416,7 @@ footer {
   #TiendaDeCultivo {
     font-size: 2.5em;
     padding: 0;
-    padding-top: 5%;
+    padding-top: 10%;
     padding-bottom: 10%;
     margin-bottom: 0;
   }
@@ -515,6 +440,7 @@ footer {
       padding-top: 1%;
       img {
         height: 50px;
+        width: 50px;
       }
       .nombre_insta {
         display: none;
@@ -541,7 +467,7 @@ footer {
 
   
   .titleProducto {
-    margin-top: 30%;
+    margin-top: 25%;
   }
 
 
@@ -554,7 +480,99 @@ footer {
 
 }
 
+       /////////////////////////////////////////////////// NOSOTROS ////////////////////////////////////////////////////////////
+      
+      .titleNos{
+        margin-top: 28%;
+        margin-bottom: 10%;
+        }
 
+        .textNos {
+          .ParraNos{
+            font-size: 0.7em;
+          }
+        }
+      
+        .ContacNos{
+          display: flex;
+          flex-direction: column; 
+          align-items: center;
+        }
+        
+        
+        .FormNos{
+          width: 80%;
+          margin-right: -5%;
+          h1{
+          font-size: 2.3em;
+          text-align: center;
+          margin-left: -10%;
+          @media (max-width: 390px){
+            font-size: 2em;
+          }
+          }
+          .Formulario{
+            font-size: 0.7em;
+            .AreaNos{
+              margin-left: 6%;
+              width: 80%;
+            }
+          }
+        }
+      
+      
+        .btnNos{
+          padding-bottom: 10%;
+          .btnReset{
+            font-size: 0.7em;
+          }
+          .btnEnviar{
+            font-size: 0.7em;
+          }
+        }
+      
+        .inputNos{
+          width: 45%;
+          margin-left: 3%;
+          margin-bottom: 5%;
+        }
+      
+        .ContactNos2{
+          width: 90%;
+          margin-right: 10%;
+          h2{
+            font-size: 2.3em;
+          }
+        }
+      
+      .IconMarg{  
+        align-items: center;
+        margin-left: 25%;
+      }
+      
+      
+  
+  
+      .IconsNos{
+          width: 100%;
+      }
+  
+      .IconFlex{
+        width: 100%;
+        margin-left: 5%;
+        p{
+          width: 100%;
+          font-size: 0.9em;
+          text-align: center;
+        }
+      }
+  
+  
+      .MapNos{
+        iframe{
+          height: 20vh;
+        }
+      }
 
 
 
@@ -562,9 +580,6 @@ footer {
 
 
 }
-
-
-
 
 
 @media (min-width: 341px) and (max-width: 464px) {
@@ -579,13 +594,19 @@ footer {
   .barraBusqueda {
     display: none;
   }
-  .btn-success {
+  .btn-buscar {
     display: none;
   }
 
-  #logo {
-    width: 80%;
+  .navbar-brand{
+    width: 50%;
   }
+
+  #logo {
+    width: 60%;
+    height: 45px;
+  }
+
 
   #carouselExampleControls {
     img {
@@ -605,7 +626,7 @@ footer {
   #TiendaDeCultivo {
     font-size: 2em;
     padding: 0;
-    padding-top: 5%;
+    padding-top: 10%;
     padding-bottom: 10%;
     margin-bottom: 0;
   }
@@ -629,6 +650,7 @@ footer {
       padding-top: 1%;
       img {
         height: 50px;
+        width: 50px;
       }
       .nombre_insta {
         display: none;
@@ -665,6 +687,101 @@ footer {
       height: 150px;
     }
     }
+
+       /////////////////////////////////////////////////// NOSOTROS ////////////////////////////////////////////////////////////
+
+       .textNos {
+        .ParraNos{
+          font-size: 0.9em;
+        }
+      }
+      
+      .titleNos{
+        margin-top: 25%;
+        }
+      
+        .ContacNos{
+          display: flex;
+          flex-direction: column; 
+          align-items: center;
+        }
+        
+        
+        .FormNos{
+          width: 80%;
+          margin-right: -5%;
+          h1{
+          font-size: 2.5em;
+          text-align: center;
+          margin-left: -10%;
+          @media (max-width: 390px){
+            font-size: 2em;
+          }
+          }
+          .Formulario{
+            font-size: 0.7em;
+            .AreaNos{
+              margin-left: 6%;
+              width: 80%;
+            }
+          }
+        }
+      
+      
+        .btnNos{
+          padding-bottom: 10%;
+          margin-left: 10%;
+          .btnReset{
+            font-size: 0.7em;
+          }
+          .btnEnviar{
+            font-size: 0.7em;
+          }
+        }
+      
+        .inputNos{
+          width: 45%;
+          margin-left: 3%;
+          margin-bottom: 5%;
+        }
+      
+        .ContactNos2{
+          width: 90%;
+          margin-right: 10%;
+          h2{
+            font-size: 2.5em;
+          }
+        }
+      
+      .IconMarg{  
+        align-items: center;
+        margin-left: 25%;
+      }
+      
+      
+  
+  
+      .IconsNos{
+          width: 100%;
+      }
+  
+      .IconFlex{
+        width: 100%;
+        p{
+          width: 100%;
+          font-size: 0.9em;
+          text-align: center;
+        }
+      }
+  
+  
+      .MapNos{
+        iframe{
+          height: 20vh;
+        }
+      }
+
+
 }
 
 
@@ -679,12 +796,17 @@ footer {
   .barraBusqueda {
     display: none;
   }
-  .btn-success {
+  .btn-buscar {
     display: none;
+  }
+
+  .navbar-brand{
+    width: 40%;
   }
 
   #logo {
     width: 80%;
+    height: 50px;
   }
 
   #carouselExampleControls {
@@ -765,6 +887,102 @@ footer {
       height: 150px;
     }
     }
+
+    /////////////////////////////////////////////////// NOSOTROS ////////////////////////////////////////////////////////////
+
+    .textNos {
+      .ParraNos{
+        font-size: 0.9em;
+      }
+    }
+    
+    .titleNos{
+      margin-top: 20%;
+      }
+    
+      .ContacNos{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+      }
+      
+      
+      .FormNos{
+        width: 80%;
+        margin-right: -5%;
+        h1{
+        font-size: 3em;
+        text-align: center;
+        margin-left: -10%;
+        }
+        .Formulario{
+          font-size: 1em;
+          margin-right: 3%;
+          .AreaNos{
+            margin-left: 6%;
+            width: 80%;
+          }
+        }
+      }
+    
+    
+      .btnNos{
+        padding-bottom: 10%;
+        font-size: 1em;
+        .btnReset{
+          font-size: 1em;
+        }
+        .btnEnviar{
+          font-size: 1em;
+        }
+      }
+    
+      .inputNos{
+        width: 45%;
+        margin-left: 3%;
+        margin-bottom: 5%;
+      }
+    
+      .ContactNos2{
+        width: 90%;
+        margin-right: 10%;
+        h2{
+          font-size: 3em;
+        }
+      }
+    
+    .IconMarg{  
+      align-items: center;
+      margin-left: 25%;
+    }
+    
+    
+
+
+    .IconsNos{
+        width: 100%;
+    }
+
+    .IconFlex{
+      width: 100%;
+      margin-left: 7%;
+      p{
+        width: 100%;
+        font-size: 1.2em;
+        text-align: center;
+        padding-right: 20%;
+      }
+    }
+
+
+    .MapNos{
+      iframe{
+        height: 30vh;
+      }
+    }
+
+
+
 }
 
 
@@ -779,12 +997,18 @@ footer {
   .barraBusqueda {
     display: none;
   }
-  .btn-success {
+  .btn-buscar {
     display: none;
   }
 
+  .navbar-brand{
+    width: 40%;
+  }
+
+
   #logo {
     width: 80%;
+    height: 60px;
   }
 
   #carouselExampleControls {
@@ -879,8 +1103,95 @@ footer {
 
 
 
+////////////////////////////////////////////////////////////// NOSOTROS //////////////////////////////////////////////////////////////
 
 
+.textNos {
+  .ParraNos{
+    font-size: 1.2em;
+  }
+}
+
+.titleNos{
+  margin-top: 20%;
+  @media (min-width: 600px)  and (max-width: 646px){
+    margin-top: 25%;
+  }
+  }
+
+  .ContacNos{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
+  
+  
+  .FormNos{
+    width: 80%;
+    margin-right: -5%;
+    h1{
+    font-size: 3.5em;
+    text-align: center;
+    margin-left: -10%;
+    @media (min-width: 600px)  and (max-width: 700px){
+      font-size: 3.3em;
+    }
+    }
+    .Formulario{
+      font-size: 1em;
+      .AreaNos{
+        margin-left: 6%;
+        width: 70%;
+      }
+    }
+  }
+
+
+  .btnNos{
+    padding-bottom: 10%;
+    font-size: 1em;
+    @media (min-width: 600px)  and (max-width: 715px){
+      margin-left: 15%;
+    }
+    .btnReset{
+      font-size: 1em;
+    }
+    .btnEnviar{
+      font-size: 1em;
+    }
+  }
+
+  .inputNos{
+    width: 35%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+    @media (min-width: 600px)  and (max-width: 828px){
+      width: 45%;
+    }
+  }
+
+  .ContactNos2{
+    width: 100%;
+    h2{
+      font-size: 3.5em;
+    }
+  }
+
+.IconMarg{  
+  align-items: center;
+  margin-left: 25%;
+}
+
+
+.IconFlex{
+  width: 100%;
+  p{
+    width: 100%;
+    font-size: 0.7em;
+    text-align: center;
+    padding-right: 20%;
+  }
+}
 
 
 }
@@ -894,8 +1205,6 @@ footer {
       height: 85vh;}
 
 }
-
-
 
   #TiendaDeCultivo {
     margin-bottom: 10%;
@@ -915,31 +1224,42 @@ footer {
     }
   }
 
-  
+}
 
 
-/////////////////////////////////////////// PRODUCTOS ////////////////////////////////////////////////////////////////////////////////
 
-  .container{
-    font-size: 20px;
+
+/////////////////////////////////////////////////// MEDIA PARA NOSOTROS /////////////////////////////////////////////////////
+
+
+@media (min-width: 1152px) and (max-width: 1431px){
+
+  .FormNos{
+    h1{
+      margin-left: 10%;
+    }
+  }
+
+  .btnNos{
+    margin-left: 20%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+  }
+
+  .inputNos{
+    width: 35%;
   }
 
 
- .cont_menu{
-    font-size: 20px;
-  }
+  .ContactNos2{
 
-
-  .caja{
-    font-size: 20px;
-    img{
-      height: 200px;
+    h2{
+      margin-left: 15%;
     }
   }
 
 
+
 }
-
-
 
 
