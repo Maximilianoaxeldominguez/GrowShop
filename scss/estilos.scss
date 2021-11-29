@@ -483,7 +483,7 @@ footer {
        /////////////////////////////////////////////////// NOSOTROS ////////////////////////////////////////////////////////////
       
       .titleNos{
-        margin-top: 28%;
+        margin-top: 35%;
         margin-bottom: 10%;
         }
 
@@ -602,11 +602,6 @@ footer {
     width: 50%;
   }
 
-  #logo {
-    width: 60%;
-    height: 45px;
-  }
-
 
   #carouselExampleControls {
     img {
@@ -697,7 +692,7 @@ footer {
       }
       
       .titleNos{
-        margin-top: 25%;
+        margin-top: 30%;
         }
       
         .ContacNos{
@@ -805,8 +800,8 @@ footer {
   }
 
   #logo {
-    width: 80%;
-    height: 50px;
+    width: 100%;
+    height: 70px;
   }
 
   #carouselExampleControls {
@@ -849,8 +844,10 @@ footer {
     .inst {
       width: 20%;
       padding-top: 1%;
+      margin-bottom: 2%;
       img {
-        height: 50px;
+        height: 60px;
+        width: 60px;
       }
       .nombre_insta {
         display: none;
@@ -909,7 +906,7 @@ footer {
       
       .FormNos{
         width: 80%;
-        margin-right: -5%;
+        margin-right: -10%;
         h1{
         font-size: 3em;
         text-align: center;
@@ -943,9 +940,14 @@ footer {
         margin-bottom: 5%;
       }
     
-      .ContactNos2{
-        width: 90%;
+
+      .ContacNos{
         margin-right: 10%;
+      }
+
+
+      .ContactNos2{
+        width: 100%;
         h2{
           font-size: 3em;
         }
@@ -965,7 +967,6 @@ footer {
 
     .IconFlex{
       width: 100%;
-      margin-left: 7%;
       p{
         width: 100%;
         font-size: 1.2em;
@@ -1007,8 +1008,7 @@ footer {
 
 
   #logo {
-    width: 80%;
-    height: 60px;
+    width: 100%;
   }
 
   #carouselExampleControls {
@@ -1051,8 +1051,10 @@ footer {
     .inst {
       width: 20%;
       padding-top: 1%;
+      margin-bottom: 2%;
       img {
         height: 60px;
+        width: 60px;
       }
       .nombre_insta {
         display: none;

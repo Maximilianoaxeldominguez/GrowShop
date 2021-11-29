@@ -352,7 +352,7 @@ footer {
     .caja img {
       height: 150px; }
   .titleNos {
-    margin-top: 28%;
+    margin-top: 35%;
     margin-bottom: 10%; }
   .textNos .ParraNos {
     font-size: 0.7em; }
@@ -418,9 +418,6 @@ footer {
     display: none; }
   .navbar-brand {
     width: 50%; }
-  #logo {
-    width: 60%;
-    height: 45px; }
   #carouselExampleControls img {
     height: 30vh;
     width: 100%;
@@ -474,7 +471,7 @@ footer {
   .textNos .ParraNos {
     font-size: 0.9em; }
   .titleNos {
-    margin-top: 25%; }
+    margin-top: 30%; }
   .ContacNos {
     display: flex;
     flex-direction: column;
@@ -538,8 +535,8 @@ footer {
   .navbar-brand {
     width: 40%; }
   #logo {
-    width: 80%;
-    height: 50px; }
+    width: 100%;
+    height: 70px; }
   #carouselExampleControls img {
     height: 30vh;
     width: 100%;
@@ -567,9 +564,11 @@ footer {
     flex-direction: row-reverse; }
     footer .inst {
       width: 20%;
-      padding-top: 1%; }
+      padding-top: 1%;
+      margin-bottom: 2%; }
       footer .inst img {
-        height: 50px; }
+        height: 60px;
+        width: 60px; }
       footer .inst .nombre_insta {
         display: none; }
     footer .contacfoo {
@@ -599,7 +598,7 @@ footer {
     align-items: center; }
   .FormNos {
     width: 80%;
-    margin-right: -5%; }
+    margin-right: -10%; }
     .FormNos h1 {
       font-size: 3em;
       text-align: center;
@@ -621,9 +620,10 @@ footer {
     width: 45%;
     margin-left: 3%;
     margin-bottom: 5%; }
-  .ContactNos2 {
-    width: 90%;
+  .ContacNos {
     margin-right: 10%; }
+  .ContactNos2 {
+    width: 100%; }
     .ContactNos2 h2 {
       font-size: 3em; }
   .IconMarg {
@@ -632,8 +632,7 @@ footer {
   .IconsNos {
     width: 100%; }
   .IconFlex {
-    width: 100%;
-    margin-left: 7%; }
+    width: 100%; }
     .IconFlex p {
       width: 100%;
       font-size: 1.2em;
@@ -654,8 +653,7 @@ footer {
   .navbar-brand {
     width: 40%; }
   #logo {
-    width: 80%;
-    height: 60px; }
+    width: 100%; }
   #carouselExampleControls img {
     height: 40vh;
     width: 100%;
@@ -683,9 +681,11 @@ footer {
     flex-direction: row-reverse; }
     footer .inst {
       width: 20%;
-      padding-top: 1%; }
+      padding-top: 1%;
+      margin-bottom: 2%; }
       footer .inst img {
-        height: 60px; }
+        height: 60px;
+        width: 60px; }
       footer .inst .nombre_insta {
         display: none; }
     footer .contacfoo {
