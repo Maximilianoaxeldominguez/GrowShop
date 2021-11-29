@@ -464,10 +464,10 @@ footer {
   .titleProducto {
     margin-top: 30%; }
   .caja {
-    width: 30%;
+    width: 35%;
     font-size: 12px; }
     .caja img {
-      height: 150px; }
+      height: 125px; }
   .textNos .ParraNos {
     font-size: 0.9em; }
   .titleNos {
@@ -478,7 +478,7 @@ footer {
     align-items: center; }
   .FormNos {
     width: 80%;
-    margin-right: -5%; }
+    margin-right: -1%; }
     .FormNos h1 {
       font-size: 2.5em;
       text-align: center;
@@ -495,7 +495,7 @@ footer {
         width: 80%; }
   .btnNos {
     padding-bottom: 10%;
-    margin-left: 10%; }
+    margin-left: 18%; }
     .btnNos .btnReset {
       font-size: 0.7em; }
     .btnNos .btnEnviar {
@@ -508,10 +508,10 @@ footer {
     width: 90%;
     margin-right: 10%; }
     .ContactNos2 h2 {
-      font-size: 2.5em; }
+      font-size: 2.5em;
+      margin-left: 18%; }
   .IconMarg {
-    align-items: center;
-    margin-left: 25%; }
+    margin-left: 15%; }
   .IconsNos {
     width: 100%; }
   .IconFlex {
@@ -521,7 +521,7 @@ footer {
       font-size: 0.9em;
       text-align: center; }
   .MapNos iframe {
-    height: 20vh; } }
+    height: 25vh; } }
 
 @media (min-width: 465px) and (max-width: 599px) {
   body {
