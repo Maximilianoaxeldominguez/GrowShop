@@ -19,6 +19,9 @@ header {
   width: 50%;
   margin-left: 25%; }
 
+.dropdown-menu {
+  background-color: #fafafa; }
+
 #carouselExampleControls img {
   height: 95vh;
   width: 100%; }
@@ -310,7 +313,7 @@ footer {
   .carousel-item {
     height: 50vh; }
   #TiendaDeCultivo {
-    font-size: 2.5em;
+    font-size: 2em;
     padding: 0;
     padding-top: 10%;
     padding-bottom: 10%;
@@ -355,7 +358,7 @@ footer {
     margin-top: 35%;
     margin-bottom: 10%; }
   .textNos .ParraNos {
-    font-size: 0.7em; }
+    font-size: 0.5em; }
   .ContacNos {
     display: flex;
     flex-direction: column;
@@ -364,10 +367,10 @@ footer {
     width: 80%;
     margin-right: -5%; }
     .FormNos h1 {
-      font-size: 2.3em;
+      font-size: 1.5em;
       text-align: center;
       margin-left: -10%; } }
-    @media (min-width: 200px) and (max-width: 340px) and (max-width: 390px) {
+    @media (min-width: 200px) and (max-width: 340px) and (min-width: 341px) and (max-width: 390px) {
       .FormNos h1 {
         font-size: 2em; } }
 
@@ -391,7 +394,7 @@ footer {
     width: 90%;
     margin-right: 10%; }
     .ContactNos2 h2 {
-      font-size: 2.3em; }
+      font-size: 2em; }
   .IconMarg {
     align-items: center;
     margin-left: 25%; }
@@ -465,7 +468,8 @@ footer {
     margin-top: 30%; }
   .caja {
     width: 35%;
-    font-size: 12px; }
+    font-size: 12px;
+    padding: 2%; }
     .caja img {
       height: 125px; }
   .textNos .ParraNos {
@@ -519,7 +523,8 @@ footer {
     .IconFlex p {
       width: 100%;
       font-size: 0.9em;
-      text-align: center; }
+      text-align: center;
+      padding-top: 3%; }
   .MapNos iframe {
     height: 25vh; } }
 

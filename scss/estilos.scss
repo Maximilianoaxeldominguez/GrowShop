@@ -21,6 +21,10 @@ header {
   margin-left: 25%;
 }
 
+.dropdown-menu {
+  background-color: #fafafa;
+}
+
 #carouselExampleControls {
   img {
     height: 95vh;
@@ -105,113 +109,99 @@ footer {
 }
 ///////////////////////////////////////////   NOSOTROS ///////////////////////////////////////////////////
 
-.titleNos{
+.titleNos {
   font-size: 20px;
   margin-top: 8%;
   width: 100%;
-  img{
+  img {
     width: 100%;
   }
 }
 
-.textNos{
+.textNos {
   margin: 3% 5% 5% 5%;
   font-size: 20px;
-  .ParraNos{
+  .ParraNos {
     font-size: 1.5em;
   }
 }
 
-.ContacNos{
+.ContacNos {
   display: flex;
-  justify-content: center;  
+  justify-content: center;
   flex-wrap: wrap;
 }
 
-.FormNos{
+.FormNos {
   margin-top: 2%;
   margin-right: 10%;
   width: 40%;
   font-size: 20px;
-  h1{
+  h1 {
     margin-left: 20%;
     margin-bottom: 7%;
-    font-size: 2.9em; 
-    }
+    font-size: 2.9em;
   }
+}
 
-
-  .Formulario{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    .AreaNos{
-      margin-left: 1%;
-      margin-bottom: 5%;
-    }
+.Formulario {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  .AreaNos {
+    margin-left: 1%;
+    margin-bottom: 5%;
   }
+}
 
-
-.inputNos{
+.inputNos {
   margin-bottom: 5%;
 }
 
-
-
-.btnNos{
+.btnNos {
   margin-left: 22%;
-  }
-  .btnReset{
-    margin-right: 5%;
-  }
+}
+.btnReset {
+  margin-right: 5%;
+}
 
-
-.ContactNos2{
+.ContactNos2 {
   margin-top: 6%;
   margin-bottom: 2%;
   font-size: 20px;
   width: 30%;
-  h2{
+  h2 {
     margin-bottom: 10%;
     font-size: 2.9em;
     margin-left: 25%;
-}
-}
-
-
-.IconsNos{
-  display: flex;
-  flex-direction: column
   }
+}
 
+.IconsNos {
+  display: flex;
+  flex-direction: column;
+}
 
-.IconFlex{
+.IconFlex {
   display: flex;
   justify-content: center;
   margin-bottom: 10%;
-  .IconMarg{
+  .IconMarg {
     margin-right: 2%;
     font-size: 20px;
-    p{
+    p {
       font-size: 1.5em;
     }
   }
 }
 
-
-
-
-
-.MapNos{
+.MapNos {
   width: 100%;
   margin-top: 5%;
-  iframe{
+  iframe {
     width: 100%;
   }
 }
-
-
-
 
 /////////////////////////////////////////////// PRODUCTOS   // ///////////////////////////////////////////////////
 
@@ -237,7 +227,7 @@ footer {
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
-  @media ( max-width: 900px ) {
+  @media (max-width: 900px) {
     width: 100%;
   }
 }
@@ -247,7 +237,7 @@ footer {
   flex-direction: row;
   width: 100%;
   margin-top: 5%;
-  @media ( max-width: 900px ) {
+  @media (max-width: 900px) {
     justify-content: center;
   }
 }
@@ -257,11 +247,10 @@ footer {
   flex-direction: column;
   align-items: center;
   font-size: 25px;
-  @media ( max-width: 900px ) {
+  @media (max-width: 900px) {
     display: none;
   }
 }
-
 
 .caja {
   width: 18%;
@@ -374,13 +363,12 @@ footer {
 
 //////////////////////////////////// RESPONSIVE ////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-@media (min-width: 200px) and (max-width: 340px){
-////////////////////////// INDEX //////////////////////////////////////////////////////////////////////////////////////////////////////
+@media (min-width: 200px) and (max-width: 340px) {
+  ////////////////////////// INDEX //////////////////////////////////////////////////////////////////////////////////////////////////////
   body {
     background-color: #fafafa;
   }
-  *{
+  * {
     font-size: 15px;
   }
   .barraBusqueda {
@@ -390,7 +378,7 @@ footer {
     display: none;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     width: 60%;
   }
 
@@ -414,7 +402,7 @@ footer {
   }
 
   #TiendaDeCultivo {
-    font-size: 2.5em;
+    font-size: 2em;
     padding: 0;
     padding-top: 10%;
     padding-bottom: 10%;
@@ -465,130 +453,114 @@ footer {
   }
   /////////////////////////////////////////// PRODUCTOS ////////////////////////////////////////////////////////////////////////////////
 
-  
   .titleProducto {
     margin-top: 25%;
   }
 
-
   .caja {
     width: 30%;
     font-size: 12px;
-    img{
+    img {
       height: 150px;
     }
+  }
 
+  /////////////////////////////////////////////////// NOSOTROS ////////////////////////////////////////////////////////////
+
+  .titleNos {
+    margin-top: 35%;
+    margin-bottom: 10%;
+  }
+
+  .textNos {
+    .ParraNos {
+      font-size: 0.5em;
+    }
+  }
+
+  .ContacNos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .FormNos {
+    width: 80%;
+    margin-right: -5%;
+    h1 {
+      font-size: 1.5em;
+      text-align: center;
+      margin-left: -10%;
+      @media (min-width:341px) and (max-width: 390px) {
+        font-size: 2em;
+      }
+    }
+    .Formulario {
+      font-size: 0.7em;
+      .AreaNos {
+        margin-left: 6%;
+        width: 80%;
+      }
+    }
+  }
+
+  .btnNos {
+    padding-bottom: 10%;
+    .btnReset {
+      font-size: 0.7em;
+    }
+    .btnEnviar {
+      font-size: 0.7em;
+    }
+  }
+
+  .inputNos {
+    width: 45%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+  }
+
+  .ContactNos2 {
+    width: 90%;
+    margin-right: 10%;
+    h2 {
+      font-size: 2em;
+    }
+  }
+
+  .IconMarg {
+    align-items: center;
+    margin-left: 25%;
+  }
+
+  .IconsNos {
+    width: 100%;
+  }
+
+  .IconFlex {
+    width: 100%;
+    margin-left: 5%;
+    p {
+      width: 100%;
+      font-size: 0.9em;
+      text-align: center;
+    }
+  }
+
+  .MapNos {
+    iframe {
+      height: 20vh;
+    }
+  }
 }
-
-       /////////////////////////////////////////////////// NOSOTROS ////////////////////////////////////////////////////////////
-      
-      .titleNos{
-        margin-top: 35%;
-        margin-bottom: 10%;
-        }
-
-        .textNos {
-          .ParraNos{
-            font-size: 0.7em;
-          }
-        }
-      
-        .ContacNos{
-          display: flex;
-          flex-direction: column; 
-          align-items: center;
-        }
-        
-        
-        .FormNos{
-          width: 80%;
-          margin-right: -5%;
-          h1{
-          font-size: 2.3em;
-          text-align: center;
-          margin-left: -10%;
-          @media (max-width: 390px){
-            font-size: 2em;
-          }
-          }
-          .Formulario{
-            font-size: 0.7em;
-            .AreaNos{
-              margin-left: 6%;
-              width: 80%;
-            }
-          }
-        }
-      
-      
-        .btnNos{
-          padding-bottom: 10%;
-          .btnReset{
-            font-size: 0.7em;
-          }
-          .btnEnviar{
-            font-size: 0.7em;
-          }
-        }
-      
-        .inputNos{
-          width: 45%;
-          margin-left: 3%;
-          margin-bottom: 5%;
-        }
-      
-        .ContactNos2{
-          width: 90%;
-          margin-right: 10%;
-          h2{
-            font-size: 2.3em;
-          }
-        }
-      
-      .IconMarg{  
-        align-items: center;
-        margin-left: 25%;
-      }
-      
-      
-  
-  
-      .IconsNos{
-          width: 100%;
-      }
-  
-      .IconFlex{
-        width: 100%;
-        margin-left: 5%;
-        p{
-          width: 100%;
-          font-size: 0.9em;
-          text-align: center;
-        }
-      }
-  
-  
-      .MapNos{
-        iframe{
-          height: 20vh;
-        }
-      }
-
-
-
-
-
-
-}
-
 
 @media (min-width: 341px) and (max-width: 464px) {
-////////////////////////// INDEX //////////////////////////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////// INDEX //////////////////////////////////////////////////////////////////////////////////////////////////////
 
   body {
     background-color: #fafafa;
   }
-  *{
+  * {
     font-size: 20px;
   }
   .barraBusqueda {
@@ -598,10 +570,9 @@ footer {
     display: none;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     width: 50%;
   }
-
 
   #carouselExampleControls {
     img {
@@ -674,115 +645,110 @@ footer {
     margin-top: 30%;
   }
 
-
   .caja {
     width: 35%;
     font-size: 12px;
-    img{
+    padding: 2%;
+    img {
       height: 125px;
     }
+  }
+
+  /////////////////////////////////////////////////// NOSOTROS ////////////////////////////////////////////////////////////
+
+  .textNos {
+    .ParraNos {
+      font-size: 0.9em;
     }
+  }
 
-       /////////////////////////////////////////////////// NOSOTROS ////////////////////////////////////////////////////////////
+  .titleNos {
+    margin-top: 30%;
+  }
 
-       .textNos {
-        .ParraNos{
-          font-size: 0.9em;
-        }
-      }
-      
-      .titleNos{
-        margin-top: 30%;
-        }
-      
-        .ContacNos{
-          display: flex;
-          flex-direction: column; 
-          align-items: center;
-        }
-        
-        
-        .FormNos{
-          width: 80%;
-          margin-right: -1%;
-          h1{
-          font-size: 2.5em;
-          text-align: center;
-          margin-left: -10%;
-          @media (max-width: 390px){
-            font-size: 2em;
-          }
-          }
-          .Formulario{
-            font-size: 0.7em;
-            .AreaNos{
-              margin-left: 6%;
-              width: 80%;
-            }
-          }
-        }
-      
-      
-        .btnNos{
-          padding-bottom: 10%;
-          margin-left: 18%;
-          .btnReset{
-            font-size: 0.7em;
-          }
-          .btnEnviar{
-            font-size: 0.7em;
-          }
-        }
-      
-        .inputNos{
-          width: 45%;
-          margin-left: 3%;
-          margin-bottom: 5%;
-        }
-      
-        .ContactNos2{
-          width: 90%;
-          margin-right: 10%;
-          h2{
-            font-size: 2.5em;
-            margin-left: 18%;
-          }
-        }
-      
-      .IconMarg{  
-        margin-left: 15%;
-      }
-      
-      .IconsNos{
-          width: 100%;
-      }
-  
-      .IconFlex{
-        width: 100%;
-        p{
-          width: 100%;
-          font-size: 0.9em;
-          text-align: center;
-        }
-      }
-  
-  
-      .MapNos{
-        iframe{
-          height: 25vh;
-        }
-      }
+  .ContacNos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .FormNos {
+    width: 80%;
+    margin-right: -1%;
+    h1 {
+      font-size: 2.5em;
+      text-align: center;
+      margin-left: -10%;
+      @media (max-width: 390px) {
+        font-size: 2em;
+      }
+    }
+    .Formulario {
+      font-size: 0.7em;
+      .AreaNos {
+        margin-left: 6%;
+        width: 80%;
+      }
+    }
+  }
 
+  .btnNos {
+    padding-bottom: 10%;
+    margin-left: 18%;
+    .btnReset {
+      font-size: 0.7em;
+    }
+    .btnEnviar {
+      font-size: 0.7em;
+    }
+  }
+
+  .inputNos {
+    width: 45%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+  }
+
+  .ContactNos2 {
+    width: 90%;
+    margin-right: 10%;
+    h2 {
+      font-size: 2.5em;
+      margin-left: 18%;
+    }
+  }
+
+  .IconMarg {
+    margin-left: 15%;
+  }
+
+  .IconsNos {
+    width: 100%;
+  }
+
+  .IconFlex {
+    width: 100%;
+    p {
+      width: 100%;
+      font-size: 0.9em;
+      text-align: center;
+      padding-top: 3%;
+    }
+  }
+
+  .MapNos {
+    iframe {
+      height: 25vh;
+    }
+  }
 }
 
-
-@media (min-width: 465px) and (max-width: 599px){
+@media (min-width: 465px) and (max-width: 599px) {
   ////////////////////////// INDEX //////////////////////////////////////////////////////////////////////////////////////////////////////
   body {
     background-color: #fafafa;
   }
-  *{
+  * {
     font-size: 20px;
   }
   .barraBusqueda {
@@ -792,7 +758,7 @@ footer {
     display: none;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     width: 40%;
   }
 
@@ -873,123 +839,110 @@ footer {
     margin-top: 30%;
   }
 
-
   .caja {
     width: 30%;
     font-size: 12px;
-    img{
+    img {
       height: 150px;
     }
-    }
+  }
 
-    /////////////////////////////////////////////////// NOSOTROS ////////////////////////////////////////////////////////////
+  /////////////////////////////////////////////////// NOSOTROS ////////////////////////////////////////////////////////////
 
-    .textNos {
-      .ParraNos{
-        font-size: 0.9em;
-      }
+  .textNos {
+    .ParraNos {
+      font-size: 0.9em;
     }
-    
-    .titleNos{
-      margin-top: 20%;
-      }
-    
-      .ContacNos{
-        display: flex;
-        flex-direction: column; 
-        align-items: center;
-      }
-      
-      
-      .FormNos{
+  }
+
+  .titleNos {
+    margin-top: 20%;
+  }
+
+  .ContacNos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .FormNos {
+    width: 80%;
+    margin-right: -10%;
+    h1 {
+      font-size: 3em;
+      text-align: center;
+      margin-left: -10%;
+    }
+    .Formulario {
+      font-size: 1em;
+      margin-right: 3%;
+      .AreaNos {
+        margin-left: 6%;
         width: 80%;
-        margin-right: -10%;
-        h1{
-        font-size: 3em;
-        text-align: center;
-        margin-left: -10%;
-        }
-        .Formulario{
-          font-size: 1em;
-          margin-right: 3%;
-          .AreaNos{
-            margin-left: 6%;
-            width: 80%;
-          }
-        }
       }
-    
-    
-      .btnNos{
-        padding-bottom: 10%;
-        font-size: 1em;
-        .btnReset{
-          font-size: 1em;
-        }
-        .btnEnviar{
-          font-size: 1em;
-        }
-      }
-    
-      .inputNos{
-        width: 45%;
-        margin-left: 3%;
-        margin-bottom: 5%;
-      }
-    
-
-      .ContacNos{
-        margin-right: 10%;
-      }
-
-
-      .ContactNos2{
-        width: 100%;
-        h2{
-          font-size: 3em;
-        }
-      }
-    
-    .IconMarg{  
-      align-items: center;
-      margin-left: 25%;
     }
-    
-    
+  }
 
-
-    .IconsNos{
-        width: 100%;
+  .btnNos {
+    padding-bottom: 10%;
+    font-size: 1em;
+    .btnReset {
+      font-size: 1em;
     }
+    .btnEnviar {
+      font-size: 1em;
+    }
+  }
 
-    .IconFlex{
+  .inputNos {
+    width: 45%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+  }
+
+  .ContacNos {
+    margin-right: 10%;
+  }
+
+  .ContactNos2 {
+    width: 100%;
+    h2 {
+      font-size: 3em;
+    }
+  }
+
+  .IconMarg {
+    align-items: center;
+    margin-left: 25%;
+  }
+
+  .IconsNos {
+    width: 100%;
+  }
+
+  .IconFlex {
+    width: 100%;
+    p {
       width: 100%;
-      p{
-        width: 100%;
-        font-size: 1.2em;
-        text-align: center;
-        padding-right: 20%;
-      }
+      font-size: 1.2em;
+      text-align: center;
+      padding-right: 20%;
     }
+  }
 
-
-    .MapNos{
-      iframe{
-        height: 30vh;
-      }
+  .MapNos {
+    iframe {
+      height: 30vh;
     }
-
-
-
+  }
 }
-
 
 @media (min-width: 600px) and (max-width: 1150px) {
   /////////////////////////////////// INDEX //////////////////////////////////////////////////////////////////////////////////////////////////////
   body {
     background-color: #fafafa;
   }
-  *{
+  * {
     font-size: 35px;
   }
   .barraBusqueda {
@@ -999,10 +952,9 @@ footer {
     display: none;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     width: 40%;
   }
-
 
   #logo {
     width: 100%;
@@ -1080,187 +1032,158 @@ footer {
     margin-top: 20%;
   }
 
-
-  .container{
+  .container {
     font-size: 15px;
   }
 
-
-  .cont_menu{
+  .cont_menu {
     font-size: 15px;
   }
 
-
-  .caja{
+  .caja {
     font-size: 15px;
-    img{
+    img {
       height: 150px;
     }
   }
 
+  ////////////////////////////////////////////////////////////// NOSOTROS //////////////////////////////////////////////////////////////
 
-
-
-
-////////////////////////////////////////////////////////////// NOSOTROS //////////////////////////////////////////////////////////////
-
-
-.textNos {
-  .ParraNos{
-    font-size: 1.2em;
-  }
-}
-
-.titleNos{
-  margin-top: 20%;
-  @media (min-width: 600px)  and (max-width: 646px){
-    margin-top: 25%;
-  }
+  .textNos {
+    .ParraNos {
+      font-size: 1.2em;
+    }
   }
 
-  .ContacNos{
+  .titleNos {
+    margin-top: 20%;
+    @media (min-width: 600px) and (max-width: 646px) {
+      margin-top: 25%;
+    }
+  }
+
+  .ContacNos {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
   }
-  
-  
-  .FormNos{
+
+  .FormNos {
     width: 80%;
     margin-right: -5%;
-    h1{
-    font-size: 3.5em;
-    text-align: center;
-    margin-left: -10%;
-    @media (min-width: 600px)  and (max-width: 700px){
-      font-size: 3.3em;
+    h1 {
+      font-size: 3.5em;
+      text-align: center;
+      margin-left: -10%;
+      @media (min-width: 600px) and (max-width: 700px) {
+        font-size: 3.3em;
+      }
     }
-    }
-    .Formulario{
+    .Formulario {
       font-size: 1em;
-      .AreaNos{
+      .AreaNos {
         margin-left: 6%;
         width: 70%;
       }
     }
   }
 
-
-  .btnNos{
+  .btnNos {
     padding-bottom: 10%;
     font-size: 1em;
-    @media (min-width: 600px)  and (max-width: 715px){
+    @media (min-width: 600px) and (max-width: 715px) {
       margin-left: 15%;
     }
-    .btnReset{
+    .btnReset {
       font-size: 1em;
     }
-    .btnEnviar{
+    .btnEnviar {
       font-size: 1em;
     }
   }
 
-  .inputNos{
+  .inputNos {
     width: 35%;
     margin-left: 3%;
     margin-bottom: 5%;
-    @media (min-width: 600px)  and (max-width: 828px){
+    @media (min-width: 600px) and (max-width: 828px) {
       width: 45%;
     }
   }
 
-  .ContactNos2{
+  .ContactNos2 {
     width: 100%;
-    h2{
+    h2 {
       font-size: 3.5em;
     }
   }
 
-.IconMarg{  
-  align-items: center;
-  margin-left: 25%;
-}
-
-
-.IconFlex{
-  width: 100%;
-  p{
-    width: 100%;
-    font-size: 0.7em;
-    text-align: center;
-    padding-right: 20%;
+  .IconMarg {
+    align-items: center;
+    margin-left: 25%;
   }
 
-
+  .IconFlex {
+    width: 100%;
+    p {
+      width: 100%;
+      font-size: 0.7em;
+      text-align: center;
+      padding-right: 20%;
+    }
+  }
 }
 
-
-}
-
-@media (min-width: 1151px) and (max-width: 1801px){
-
+@media (min-width: 1151px) and (max-width: 1801px) {
   ////////////////////////// INDEX //////////////////////////////////////////////////////////////////////////////////////////////////////
 
   #carouselExampleControls {
     img {
-      height: 85vh;}
-
-}
+      height: 85vh;
+    }
+  }
 
   #TiendaDeCultivo {
     margin-bottom: 10%;
   }
 
-  .nombre_insta{
-    h2{
+  .nombre_insta {
+    h2 {
       font-size: 1.5em;
     }
   }
 
-  .inst{
+  .inst {
     width: 45%;
-    img{
+    img {
       width: 100px;
       height: 100px;
     }
   }
-
 }
-
-
-
 
 /////////////////////////////////////////////////// MEDIA PARA NOSOTROS /////////////////////////////////////////////////////
 
-
-@media (min-width: 1152px) and (max-width: 1431px){
-
-  .FormNos{
-    h1{
+@media (min-width: 1152px) and (max-width: 1431px) {
+  .FormNos {
+    h1 {
       margin-left: 10%;
     }
   }
 
-  .btnNos{
+  .btnNos {
     margin-left: 20%;
     margin-bottom: 5%;
     padding-bottom: 5%;
   }
 
-  .inputNos{
+  .inputNos {
     width: 35%;
   }
 
-
-  .ContactNos2{
-
-    h2{
+  .ContactNos2 {
+    h2 {
       margin-left: 15%;
     }
   }
-
-
-
 }
-
-
