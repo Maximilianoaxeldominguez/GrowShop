@@ -316,14 +316,14 @@ footer {
   margin-left: 9%;
 
   @media (max-width:600px){
-    font-size: 5px;
+    font-size: 7px;
     margin-top: 50%;
     width: 100%;
-    margin-left: 7%;
+    margin-left: 9%;
   }
 
   @media (min-width:600px) and (max-width:1400px){
-    font-size: 10px;
+    font-size: 12px;
     margin-top: 35%;
     width: 100%;
     margin-left: 3%;
@@ -341,7 +341,7 @@ footer {
   }
 }
 
-.boton404{
+.boton{
   margin-top: 3%;
   margin-right: 3%;
   font-size: $Pxstand;
